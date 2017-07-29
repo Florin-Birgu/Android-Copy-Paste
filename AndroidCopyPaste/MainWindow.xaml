@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AndroidCopyPaste"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Android Copy Paste" Height="350" Width="525">
     <Grid>
-        
+        <TextBox x:Name="PasteInput" Margin="22,44,120,78" TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True"/>
+        <Button x:Name="PasteBtn" Content="Paste/Send" Margin="0,44,10,37" Click="Button_Click" HorizontalAlignment="Right" Width="90"/>
+        <ComboBox x:Name="DeviceBox" Margin="22,0,120,37" SelectionChanged="ComboBox_SelectionChanged" Height="22" VerticalAlignment="Bottom"/>
+
     </Grid>
 </Window>

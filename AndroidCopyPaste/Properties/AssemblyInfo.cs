@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyTitle("AndroidCopyPaste")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Eggmetrics")]
 [assembly: AssemblyProduct("AndroidCopyPaste")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
